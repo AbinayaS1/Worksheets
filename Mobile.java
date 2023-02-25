@@ -1,23 +1,22 @@
-package week1.day1;
+package week1.day2;
 
 public class Mobile {
 
-	public void makeCall(){
-		System.out.println("Make a call incase of emergency");
-	}
-
-	public void sendMsg(){
-		System.out.println("Leave a Msg incase of unattended calls");
-	}
-
-
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Mobile Phone = new Mobile();
-		Phone.makeCall();
-		Phone.sendMsg();
-
-	}
-
+		
+		String mobileBrandName = "googlepixel";
+		char mobileLogo = 'p';
+		short noOfMobilePiece = 4562;
+		int modelNumber = 12;
+		long mobileMeiNumber = 265946461321L;
+		float mobilePrice = 12364.32F;
+		boolean isDamaged = false;	
+System.out.println("MobileBrandName:"+ ""+ mobileBrandName);
+System.out.println("MobileLogo:"+ ""+ mobileLogo);
+System.out.println("Noofmobilepiece:"+ ""+ noOfMobilePiece);
+System.out.println("Mobilenumber:"+ ""+ modelNumber);
+System.out.println("Mobile Mei number:"+ ""+ mobileMeiNumber);
+System.out.println("Mobile price:"+ ""+ mobilePrice);
+System.out.println("Is it damaged:"+ ""+ isDamaged);
+}
 }
